@@ -1,22 +1,23 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (4.2.1)
-      activesupport (= 4.2.1)
+    activemodel (4.2.11.3)
+      activesupport (= 4.2.11.3)
       builder (~> 3.1)
-    activesupport (4.2.1)
+    activesupport (4.2.11.3)
       i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     bson (2.3.0)
     bson_ext (1.5.1)
-    builder (3.2.2)
+    builder (3.2.4)
+    concurrent-ruby (1.1.6)
     connection_pool (2.1.3)
-    i18n (0.7.0)
-    json (1.8.2)
-    minitest (5.5.1)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
+    json (2.3.0)
+    minitest (5.14.1)
     mongo (1.3.1)
       bson (>= 1.3.1)
     mongoid (4.0.2)
@@ -44,9 +45,9 @@ GEM
       tilt (>= 1.3, < 3)
     source2swagger (0.0.2)
       json
-    thread_safe (0.3.5)
+    thread_safe (0.3.6)
     tilt (2.0.1)
-    tzinfo (1.2.2)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
 
 PLATFORMS
