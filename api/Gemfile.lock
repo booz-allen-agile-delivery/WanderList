@@ -28,10 +28,11 @@ GEM
       bson (~> 2.2)
       connection_pool (~> 2.0)
       optionable (~> 0.2.0)
+    nio4r (2.5.7)
     optionable (0.2.0)
     origin (2.1.1)
-    puma (2.11.1)
-      rack (>= 1.1, < 2.0)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
